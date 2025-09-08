@@ -1,0 +1,48 @@
+/* *{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    gap: 5px;
+}
+form{
+    width: 80%;
+    justify-content: center;
+}
+.container .style{
+    padding: 20px;
+    width: 100%;
+  
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+}
+.container .style:focus{
+    border: 2px solid orangered;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+} */
