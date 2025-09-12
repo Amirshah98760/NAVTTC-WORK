@@ -1,0 +1,34 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    padding: 10px;
+}
+.mainContainer{
+    display: flex;
+    gap: 20px;
+    flex-wrap: 
+    wrap;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    padding: 10px;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
+.container2{
+    overflow-y: hidden;
+}
+.container3{
+    overflow: auto;
+}
+.container4{
+    visibility: hidden;
+}
+.container5{
+    display: none;
+}
