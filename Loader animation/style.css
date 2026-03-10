@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.childContainer{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #4b5563;
+    border-top: 10px solid #fbbf24;
+    border-radius: 50%;
+    animation: rotate 3s infinite ease-in-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}   
